@@ -1,4 +1,5 @@
 /// <reference types="./mod.d.ts" />
+
 const Operator = {
   EQUAL: 'equal',
   NOT_EQUAL: 'notEqual',
