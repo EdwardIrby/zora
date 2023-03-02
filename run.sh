@@ -10,6 +10,7 @@ npm run build
 cd ../
 mv upstream/zora/dist/index.js mod.js
 mv upstream/zora/dist/zora.d.ts mod.d.ts
+sed -i '1s/^/\/\/\/ <reference types="\.\/mod\.d\.ts" \/>\n/' mod.js
 
 # Cleanup
 rm -rf upstream
